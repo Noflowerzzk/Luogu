@@ -25,9 +25,10 @@ ll dfs(int p)
     {
         if(vis[i]) continue;
         ll t = dfs(i);
-        ans = max(ans, dfs(i));
         ret += (t > 0) ? t : 0;
     }
+    ans = max(ans, ret + w[p]);
+
     return ret + w[p];
 }
 

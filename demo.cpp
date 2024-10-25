@@ -23,6 +23,11 @@ void solve()
 
         stk[++ top] = i;    // i入栈
     }
+    if(top == m + 1)    // 如果超出范围
+    {
+        printf("NO\n");
+        return;
+    }
 
     while(stk[top] == a[j])
         top --, j ++;

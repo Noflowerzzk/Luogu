@@ -1,0 +1,1 @@
+{"name":"Luogu_P4147","url":"https://www.luogu.com.cn/problem/P4147","memoryLimit":524288,"timeLimit":1000,"tests":[{"id":1729862094359,"input":"5 6 \nR F F F F F \nF F F F F F \nR R R F F F \nF F F F F F \nF F F F F F","output":"45"}],"group":"luogu","srcPath":"d:\\Codes\\Luogu\\Luogu\\Luogu_P_4147.cpp"}

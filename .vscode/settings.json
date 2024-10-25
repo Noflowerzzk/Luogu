@@ -40,5 +40,6 @@
         "stdexcept": "cpp",
         "streambuf": "cpp",
         "typeinfo": "cpp"
-    }
+    },
+    "materialTheme.accent": "Purple"
 }
